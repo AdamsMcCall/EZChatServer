@@ -6,7 +6,9 @@ namespace EZChatServer
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Server server = new Server();
+
+            server.Listen(16);
         }
     }
 }
